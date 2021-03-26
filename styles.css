@@ -3,7 +3,7 @@
 :root {
     --primary-color: #119e3b;
     --blue-color: #60A5FA;
-    ;
+    --off-white: #DBEAFE;
 }
 
 body {
@@ -87,9 +87,26 @@ hr {
  }
 
  .hero .hero-heading {
+     padding-top: 1rem;
     color: var(--blue-color);
  }
 
  .hero .hero-heading .heading-inverted {
      color: var(--primary-color);
  }
+
+ /* Section */
+
+.section {
+    padding: 1rem;
+}
+
+ .section h1 {
+text-align: center;
+ }
+
+ .ow{
+     background-color: var(--off-white);
+ }
+
+ /* footer */
