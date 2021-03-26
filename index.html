@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    ]
+    
     <link rel="stylesheet" href="styles.css" />
 
 </head>
@@ -27,37 +27,40 @@
     <h2>@container</h2>
     
     <h3>Fluid container</h3>
-    <div>This is the fluid container. It will go till the end of the page.</div>
+    <div class="container">This is the fluid container. It will go till the end of the page.</div>
     
     <h3>Center container</h3>
-    <div>This is the centered container. It will go till the specified width.</div>
+    <div class="container
+    container-center">This is the centered container. It will go till the specified width.</div>
     
     <hr>
     
     <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">secondary link</a>
+    <a class="link
+    link-primary" href="/">Primary link</a>
+    <a class="link
+    link-secondary" href="/">secondary link</a>
     
     <hr>
     
     <h2>@lists</h2>
     
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="list-non-bullets">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
     
     <h3>Unordered inline list</h3>
-    <ul>
+    <ul class="list-non-bullets">
         <li>Inline Item One</li>
         <li>Inline Item Two</li>
         <li>Inline Item Three</li>
     </ul>
     
     <h3>Reverse Ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>Bread</li>
