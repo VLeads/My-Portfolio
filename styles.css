@@ -78,7 +78,7 @@ hr {
 
 /* header */
  .hero {
-     padding: 2rem;
+     padding: 3rem;
  }
 
  .hero .hero-img {
@@ -89,7 +89,7 @@ hr {
 
  .hero .hero-heading {
      text-align: center;
-     padding-top: 0.5rem;
+     padding-top: 1rem;
     color: var(--blue-color);
  }
 
@@ -100,7 +100,7 @@ hr {
  /* Section */
 
 .section {
-    padding: 1rem;
+    padding: 3rem;
 }
 
  .section h1 {
@@ -114,7 +114,6 @@ text-align: center;
  /* footer */
  .footer {
      background-color:var(--primary-color);
-     margin-top: 4rem;
      padding: 2rem 1rem;
      text-align: center;
      color: white;
