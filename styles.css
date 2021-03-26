@@ -82,14 +82,14 @@ hr {
  }
 
  .hero .hero-img {
-     max-width: 350px;
+     max-width: 450px;
      display: block;
      margin: auto;
  }
 
  .hero .hero-heading {
      text-align: center;
-     padding-top: 1rem;
+     padding-top: 0.5rem;
     color: var(--blue-color);
  }
 
@@ -114,6 +114,7 @@ text-align: center;
  /* footer */
  .footer {
      background-color:var(--primary-color);
+     margin-top: 4rem;
      padding: 2rem 1rem;
      text-align: center;
      color: white;
