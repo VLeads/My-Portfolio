@@ -9,6 +9,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
+    
 }
 
 hr {
@@ -16,7 +17,7 @@ hr {
 }
 
 .container{
-    padding: 0rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .container-center{
@@ -25,21 +26,29 @@ hr {
 }
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
+
 
 /* Look into "BEM" naming conventions for CSS */
 
@@ -79,10 +88,12 @@ hr {
 /* header */
  .hero {
      padding: 3rem;
+     padding-top: 5rem;
  }
 
  .hero .hero-img {
-     max-width: 375px;
+     max-width: 80%;
+     width: 400px;
      display: block;
      margin: auto;
  }
@@ -100,7 +111,7 @@ hr {
  /* Section */
 
 .section {
-    padding: 3rem;
+    padding: 2rem;
 }
 
  .section h1 {
@@ -114,17 +125,26 @@ text-align: center;
  /* footer */
  .footer {
      background-color:var(--primary-color);
-     padding: 3rem 1rem;
+     padding: 4rem 1rem;
      text-align: center;
      color: white;
      border-top-right-radius: 1rem;
+     
  }
 
  .footer .footer-header {
-     padding-bottom: 1rem;
+    font-weight: bold;
      font-size:x-large
  }
 
  .footer .link{
      color: white;
+ }
+
+ ul {
+     display:block;
+     margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
  }
