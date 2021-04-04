@@ -20,12 +20,21 @@ hr {
     padding: 3rem 1rem;
 }
 
+.container h1{
+    color: var(--primary-color);
+}
+
+.container p{
+    font-size: 1.2rem;
+}
+
 .container-center{
     max-width: 600px;
     margin: auto;
 }
 
 .link{
+    font-size: 1.2rem;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -37,7 +46,7 @@ hr {
     border-radius: 0.5rem;
     display: block;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    margin: 1.5rem 1rem 1rem 0rem;
 }
 
 .link-secondary{
@@ -122,6 +131,10 @@ text-align: center;
      background-color: var(--off-white);
  }
 
+ p{
+     line-height: 1.65rem;
+ }
+
  /* footer */
  .footer {
      background-color:var(--primary-color);
@@ -147,4 +160,23 @@ text-align: center;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+ }
+
+ /* ----------Blog Page---------- */
+
+ .blogDiv{
+     margin: 0.2rem auto;
+     padding: 1rem 2rem;
+     max-width: 700px;
+     background-color: var(--off-white);
+ }
+
+ .blogLink{
+     font-size: 1.2rem;
+     color: var(--primary-color);
+    text-decoration: none;
+ }
+
+ .blogTopic{
+     padding-top: 0;
  }
