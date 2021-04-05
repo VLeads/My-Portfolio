@@ -164,6 +164,46 @@ ul {
     padding-inline-start: 0;
 }
 
+/* ------About me----- */
+
+.hero-secondary{
+    padding: 0rem 2rem 2rem 0rem;
+    height: 60vh;
+    margin: auto;
+}
+
+.hero-secondary .aboutContainer {
+    display: flex;
+   justify-content: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.hero-secondary .vishalpic{
+    padding: 1rem 0rem 0rem 1rem;
+    display: block;
+    max-width: 80%;
+    width: 260px;
+    border-radius: 40%;
+}
+
+.greet{
+font-size: 2rem;
+}
+.greet-extra{
+font-size: 1.5rem;
+}
+
+.hero-secondary .aboutContainer div{
+    max-width: 700px;
+    margin: 0rem 0rem 0rem 04rem;
+}
+.hero-secondary .aboutContainer div ul{
+    line-height: 2rem;
+    margin: 0rem 3rem;
+    font-size: 1.2rem;
+}
+
 /*------Skills-icons-------*/
 
 .iconsDiv {
