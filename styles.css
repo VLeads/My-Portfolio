@@ -184,6 +184,7 @@ ul {
     display: block;
     max-width: 80%;
     width: 260px;
+    height: auto;
     border-radius: 40%;
 }
 
