@@ -172,20 +172,22 @@ ul {
     margin: auto;
 }
 
-.hero-secondary .aboutContainer {
+.hero-secondary .about-container {
     display: flex;
    justify-content: center;
     margin: auto;
     margin-bottom: 4rem;
 }
 
-.hero-secondary .vishalpic{
+/* hero image */
+
+.hero-secondary .hero-img{
     padding: 1rem 0rem 0rem 1rem;
     display: block;
-    max-width: 80%;
+    /* max-width: 80%; */
     width: 260px;
-    height: auto;
-    border-radius: 40%;
+    height: 52vh;
+    border-radius: 34%;
 }
 
 .greet{
@@ -195,11 +197,11 @@ font-size: 2rem;
 font-size: 1.5rem;
 }
 
-.hero-secondary .aboutContainer div{
+.hero-secondary .about-container div{
     max-width: 700px;
     margin: 0rem 0rem 0rem 04rem;
 }
-.hero-secondary .aboutContainer div ul{
+.hero-secondary .about-container div ul{
     line-height: 2rem;
     margin: 0rem 3rem;
     font-size: 1.2rem;
