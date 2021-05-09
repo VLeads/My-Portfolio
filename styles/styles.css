@@ -186,7 +186,7 @@ ul {
     display: block;
     /* max-width: 80%; */
     width: 260px;
-    height: 52vh;
+    height: 51vh;
     border-radius: 34%;
 }
 
@@ -280,4 +280,12 @@ font-size: 1.5rem;
 .blogPic {
     width: 90%;
     height: auto;
+}
+
+/* blog landing page */
+.hero .blog-img{
+    max-width: 80%;
+    width: 470px;
+    display: block;
+    margin: auto;
 }

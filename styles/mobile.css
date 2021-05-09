@@ -2,6 +2,12 @@ body{
     
 }
 
+.hero {
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+
 .hero-secondary {
     margin-bottom: 5rem;
     padding: 2rem 1rem;
@@ -26,15 +32,15 @@ body{
     margin-block-end: 0em;
 }
 
-.hero-secondary .about-content {
-    padding-top: 0.5rem;
-}
-
 .hero-secondary .hero-img {
     max-width: 200px;
-    height: 36vh;
+    height: 34vh;
     margin: auto;
     padding: 0rem 1rem;
+}
+
+.hero-secondary .about-content {
+    padding-top: 0.5rem;
 }
 
 .iconsDiv{
