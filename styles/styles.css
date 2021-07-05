@@ -3,7 +3,7 @@
 :root {
     --primary-color: #10b948;
     /* --primary-color: #31375B; */
-    --blue-color: #60A5FA;
+    --blue-color: #3e1feb;
     --off-white: #DBEAFE;
 }
 
@@ -13,7 +13,7 @@ body {
     z-index: 10;
 
         /* background: linear-gradient(-45deg, white, rgb(45, 71, 216), #df2c70, #4bd34b ); */
-        background: linear-gradient(-45deg, white, #df2c70, #2d47d8, #4bd34b );
+        background: linear-gradient(-45deg, white, #df417d, #2d85d8, #4bd34b );
     
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
