@@ -1,174 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
-    --primary-color: #10b948;
-    /* --primary-color: #31375B; */
-    --blue-color: #3e1feb;
-    --off-white: #DBEAFE;
+  --primary-color: #10b948;
+  /* --primary-color: #31375B; */
+  --blue-color: #3e1feb;
+  --off-white: #dbeafe;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0px;
-    z-index: 10;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+  z-index: 10;
 
-        /* background: linear-gradient(-45deg, white, rgb(45, 71, 216), #df2c70, #4bd34b ); */
-        background: linear-gradient(-45deg, white, #df417d, #2d85d8, #4bd34b );
-    
-        background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
+  /* background: linear-gradient(-45deg, white, rgb(45, 71, 216), #df2c70, #4bd34b ); */
+  background: linear-gradient(-45deg, white, #df417d, #2d85d8, #4bd34b);
+
+  background-size: 400% 400%;
+  animation: gradient 18s ease infinite;
 }
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-    
-
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 hr {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
 
 .container {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .container h1 {
-    font-size: 2.7rem;
-    color: var(--primary-color);
+  font-size: 2.7rem;
+  color: var(--primary-color);
 }
 
 .container p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 .link {
-    font-size: 1.2rem;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .link-primary {
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 0.5rem;
-    display: block;
-    max-width: 140px;
-    margin: 1.5rem 1rem 1rem 0rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  display: block;
+  max-width: 140px;
+  margin: 1.5rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
 }
-
 
 /* Look into "BEM" naming conventions for CSS */
 
 .list-non-bullets {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* header */
 .hero {
-    padding: 3rem;
-    padding-top: 5rem;
+  padding: 3rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
-    max-width: 80%;
-    width: 400px;
-    display: block;
-    margin: auto;
+  max-width: 80%;
+  width: 400px;
+  display: block;
+  margin: auto;
 }
 
 .hero .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--blue-color);
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--blue-color);
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* Section */
 
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .section h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .ow {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 p {
-    line-height: 1.65rem;
+  line-height: 1.65rem;
 }
 
 /* footer */
 .footer {
-    background-color: var(--primary-color);
-    padding: 4rem 1rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
-
+  background-color: var(--primary-color);
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
 }
 
 .footer .footer-header {
-    font-weight: bold;
-    font-size: x-large
+  font-weight: bold;
+  font-size: x-large;
 }
 
 /* .footer .link {
@@ -176,144 +172,141 @@ p {
 } */
 
 ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
 }
 
 /* ------About me----- */
 
-.hero-secondary{
-    padding: 0rem 2rem 2rem 0rem;
-    height: 60vh;
-    margin: auto;
+.hero-secondary {
+  padding: 0rem 2rem 2rem 0rem;
+  height: 60vh;
+  margin: auto;
 }
 
 .hero-secondary .about-container {
-    display: flex;
-   justify-content: center;
-    margin: auto;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 4rem;
 }
 
 /* hero image */
 
-.hero-secondary .hero-img{
-    padding: 1rem 0rem 0rem 1rem;
-    display: block;
-    /* max-width: 80%; */
-    width: 260px;
-    height: 51vh;
-    border-radius: 34%;
+.hero-secondary .hero-img {
+  padding: 1rem 0rem 0rem 1rem;
+  display: block;
+  /* max-width: 80%; */
+  width: 260px;
+  height: 51vh;
+  border-radius: 34%;
 }
 
-.greet{
-font-size: 2rem;
+.greet {
+  font-size: 2rem;
 }
-.greet-extra{
-font-size: 1.5rem;
+.greet-extra {
+  font-size: 1.5rem;
 }
 
-.hero-secondary .about-container div{
-    max-width: 700px;
-    margin: 0rem 0rem 0rem 04rem;
+.hero-secondary .about-container div {
+  max-width: 700px;
+  margin: 0rem 0rem 0rem 04rem;
 }
-.hero-secondary .about-container div ul{
-    line-height: 2rem;
-    margin: 0rem 3rem;
-    font-size: 1.2rem;
+.hero-secondary .about-container div ul {
+  line-height: 2rem;
+  margin: 0rem 3rem;
+  font-size: 1.2rem;
 }
 
 /*------Skills-icons-------*/
 
 .iconsDiv {
-    display: flex;  /*flex has set all icons in one line */
-    justify-content: center;
-    text-align: center;
-    margin-top: 3rem ;
-    
+  display: flex; /*flex has set all icons in one line */
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
 }
 .iconsDiv .icon {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .iconsDiv h3 {
-    font-weight: bold;
-
+  font-weight: bold;
 }
-.iconsDiv div{
-    margin-left: 1.4rem;
-    margin-right: 1.4rem;
-}
-
-.iconsDiv .fa-html5{
-    color: rgb(255, 72, 0);
+.iconsDiv div {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
 }
 
-.iconsDiv .fa-css3-alt{
-    color: rgb(38, 15, 248);
+.iconsDiv .fa-html5 {
+  color: rgb(255, 72, 0);
 }
 
-.iconsDiv .fa-js{
-    color: rgb(240, 202, 32);
+.iconsDiv .fa-css3-alt {
+  color: rgb(38, 15, 248);
 }
 
-.iconsDiv .fa-node{
-    color: rgb(50, 117, 5);
+.iconsDiv .fa-js {
+  color: rgb(240, 202, 32);
+}
+
+.iconsDiv .fa-node {
+  color: rgb(50, 117, 5);
 }
 
 .iconsDiv .fa-react {
-    color:rgb(23, 210, 235);
+  color: rgb(23, 210, 235);
 }
 .iconsDiv .fa-git-square {
-    color:rgb(235, 101, 23);
+  color: rgb(235, 101, 23);
 }
 .iconsDiv .fa-github {
-    color:rgb(1, 18, 20);
+  color: rgb(1, 18, 20);
 }
 .iconsDiv .firebase {
-    height: 75px;
+  height: 75px;
 }
 .iconsDiv .photoshop {
-    height: 77px;
+  height: 77px;
 }
 /* ----------Blog Page---------- */
 
 .blogDiv {
-    margin: 0.2rem auto;
-    padding: 1rem 2rem;
-    max-width: 700px;
-    background-color: var(--off-white);
+  margin: 0.2rem auto;
+  padding: 1rem 2rem;
+  max-width: 700px;
+  background-color: var(--off-white);
 }
 
 .blogLink {
-    text-align: left;
-
+  text-align: left;
 }
 
 .blogLink a {
-    font-size: 1.4rem;
-    color: var(--primary-color);
-    text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .blogTopic {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .blogPic {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
 }
 
 /* blog landing page */
-.hero .blog-img{
-    max-width: 80%;
-    width: 470px;
-    display: block;
-    margin: auto;
+.hero .blog-img {
+  max-width: 80%;
+  width: 470px;
+  display: block;
+  margin: auto;
 }
