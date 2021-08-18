@@ -12,8 +12,7 @@ body {
   margin: 0px;
   z-index: 10;
 
-  /* background: linear-gradient(-45deg, white, rgb(45, 71, 216), #df2c70, #4bd34b ); */
-  background: linear-gradient(-45deg, white, #df417d, #2d85d8, #4bd34b);
+  /* background: linear-gradient(-45deg, white, #df417d, #2d85d8, #4bd34b); */
 
   background-size: 400% 400%;
   animation: gradient 18s ease infinite;
